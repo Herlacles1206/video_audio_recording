@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="External Libraries">
+      <UniqueIdentifier>{e02486f7-d227-4cf8-9a51-07517a9de31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries\DXGIManager">
+      <UniqueIdentifier>{f14567b7-65b5-4fc4-bd30-bf91b83dacdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Capturers">
+      <UniqueIdentifier>{77fe2c1e-2e8c-4fe5-aa5f-0b56e9b49f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Capturers\Screen Capturers">
+      <UniqueIdentifier>{c7584302-3af8-4c2c-aaaa-2448916a68d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Capturers\Audio Capturers">
+      <UniqueIdentifier>{4b813ac8-1181-4b71-aaf5-236d1a7534ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Generators">
+      <UniqueIdentifier>{004fe8b5-a1bc-476c-b6c9-2169ef251452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Generators\Image Generators">
+      <UniqueIdentifier>{dee27cb9-ae18-483f-91bb-c19c9939fdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Generators\Video Generators">
+      <UniqueIdentifier>{43130e34-1875-4607-ada1-747ace41f156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Generators\Audio Generators">
+      <UniqueIdentifier>{cffdecf2-798e-41a1-99a8-210fa89fb8c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DaramCam.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="External Libraries\DXGIManager\DXGIManager.h">
+      <Filter>External Libraries\DXGIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DaramCam.Internal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DaramCam.Bitmap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.Capturer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.Generator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="External Libraries\DXGIManager\DXGIManager.cpp">
+      <Filter>External Libraries\DXGIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.DXGIScreenCapturer.cpp">
+      <Filter>소스 파일\Capturers\Screen Capturers</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.GDIScreenCapturer.cpp">
+      <Filter>소스 파일\Capturers\Screen Capturers</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.WICImageGenerator.cpp">
+      <Filter>소스 파일\Generators\Image Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.WICVideoGenerator.cpp">
+      <Filter>소스 파일\Generators\Video Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.WASAPIAudioCapturer.cpp">
+      <Filter>소스 파일\Capturers\Audio Capturers</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.WaveAudioGenerator.cpp">
+      <Filter>소스 파일\Generators\Audio Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="DaramCam.DXGISwapChainCapturer.cpp">
+      <Filter>소스 파일\Capturers\Screen Capturers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DaramCam.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
